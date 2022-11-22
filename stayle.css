@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    color: azure;
+}
+
+/* ----------------------------------------
+-----------header--------------------------
+-------------------------------------------*/
+header {
+    background-color: #323233;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 150px;
+}
+
+header img {
+    display: block;
+    height: 5vh;
+    width: 7%;
+}
+
+.logo {
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+span {
+    color: #ffff00;
+}
+
+/* ----------------------------------------
+-----------home----------------------------
+-------------------------------------------*/
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+/* -------------
+-container-texts
+---------------*/
+
+.container-texts {
+    text-align: right;
+}
+
+h4 {
+    font-size: 2.25rem;
+    letter-spacing: 0.12rem;
+    color: aqua;
+
+}
+
+h1 {
+    font-size: 4.65rem;
+    margin: 1.7rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+
+.container-i {
+    margin-left: 8%;
+}
+
+.container-i img {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 1.5s;
+    margin-bottom: 30vh;
+    width: 750px;
+}
+
+.container-i :hover {
+    bottom: 100px;
+}
+
+
+
+
+/* ----------------------------------------
+-----------services--------------------------
+-------------------------------------------*/
+.services {
+    background-color: #1E1E1E;
+    margin-top: -30px;
+    justify-content: center;
+}
+
+.s-text {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    background-color: #182128;
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card i {
+    font-size: 3.12rem;
+    text-align: center;
+    color: #ff0000;
+    margin: 2rem;
+}
+
+.card img {
+    width: 200px;
+}
+
+
+
+footer {
+    background-color: #1E1E1E;
+    padding: 1.3rem 2rem;
+}
+
+footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social- {
+    margin-top: 0.6rem;
+}
+
+.social- a {
+    color: azure;
+    font-size: 1.7em;
+    padding-right: 10px;
+    transition: 0.8s ease;
+}
+
+.social- a :hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+h6 {
+    background-color: #182128;
+    padding: 1vh;
+    font-size: 0.7rem;
+    letter-spacing: 0.12rem;
+}
+
+.dp {
+    text-decoration: none;
+    /* transition: 0.5s ease; */
+}
+
+/* .dp:hover { */
+
+/* ----------------------------------------
+-----------scrollbar---------------------
+--------------------------------------------*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #323233;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #585858;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #AAAAAA;
+}
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------
+-----------@media ---------------------------------------------------
+--------------------------------------------------------------------
+------------------------------------------------
+-----------------------------------------------------------------------*/
+
+
+
+@media (max-height:1030px) {
+
+    /* ----------------------------------------
+-----------header--------------------------
+-------------------------------------------*/
+    header {
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    .logo {
+        font-weight: 800;
+        font-size: 1.5em;
+    }
+
+    header img {
+        display: block;
+        height: 5vh;
+        width: 15%;
+        margin-left: 10px;
+    }
+
+    /* -------------------------------------
+-----------home----------------------------
+-------------------------------------------*/
+
+    .content {
+        align-items: flex-start;
+    }
+
+    .container-texts {
+        margin-top: 15vh;
+    }
+
+    .container-texts h4 {
+        font-size: 1.9rem;
+        letter-spacing: 0.12rem;
+    }
+
+    .container-texts h1 {
+        font-size: 3.9rem;
+        margin: 1.7rem 0;
+
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .btn {
+        padding: 0.8320em 0.9975em;
+    }
+
+    .container-i {
+        /* margin-left: 50%; */
+    }
+
+    .container-i img {
+        margin: 0;
+        width: 350px;
+        margin-bottom: 50px;
+        margin-left: 35%;
+
+    }
+
+    .container-i :hover {
+        bottom: 30px;
+    }
+
+
+    /* ----------------------------------------
+    -----------services--------------------------
+    -------------------------------------------*/
+    .box {
+        gap: 1rem;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .services h1 {
+        font-size: 2.65rem;
+        margin: 1.7rem 0;
+        text-align: center;
+        margin-block-end: 0.30em;
+
+    }
+
+    /* ----------------------------------------
+-----------footer-------------------------
+--------------------------------------------*/
+    h6 {
+        background-color: #182128;
+        margin-top: 5px;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.9rem;
+        letter-spacing: 0.12rem;
+    }
+
+}
+
+@media (max-height:700px) {
+    .container-i img {
+        width: 200px;
+    }
+}
+
+@media (max-height:600px) {
+    .container-texts {
+        margin-right: 0%;
+    }
+
+    .container-i {
+        margin-right: 0;
+    }
+
+    .container-i img {
+        width: 300px;
+    }
+
+    .container-i :hover {
+        bottom: 30px;
+    }
+}
