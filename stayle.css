@@ -149,7 +149,40 @@ h3 {
     width: 200px;
 }
 
+/* ----------------------------------------
+-----------about--------------------------
+-------------------------------------------*/
 
+.about {
+    background-color: #182128;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: right;
+    text-align: center;
+}
+
+
+
+.a-container-texts {
+    width: 100%;
+}
+
+p {
+    color: aqua;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+/* ----------------------------------------
+-----------footer--------------------------
+-------------------------------------------*/
 
 footer {
     background-color: #1E1E1E;
@@ -312,9 +345,31 @@ h6 {
 
     }
 
+    .about h1 {
+        font-size: 2.65rem;
+        margin: 1.7rem 0;
+        margin-bottom: 15px;
+    }
+
+    .about h3 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
     /* ----------------------------------------
 -----------footer-------------------------
 --------------------------------------------*/
+    footer h2 {
+        font-size: 1.65rem;
+        margin: 1.7rem 0;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
     h6 {
         background-color: #182128;
         margin-top: 5px;
