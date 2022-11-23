@@ -26,10 +26,22 @@ header {
     padding: 8px 150px;
 }
 
+header a {
+    color: azure;
+    font-size: 1.7em;
+    padding-right: 10px;
+    transition: 0.8s ease;
+}
+
+header a :hover {
+    color: white;
+    transform: scale(1.1);
+}
+
 header img {
     display: block;
     height: 5vh;
-    width: 7%;
+    width: 8%;
 }
 
 .logo {
